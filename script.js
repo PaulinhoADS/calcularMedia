@@ -1,7 +1,21 @@
-// script.js - Estrutura em branco
+// script.js - Programa calculo media
 
-alert ("Comando para mostar um texto na tela, posso usar aspas duplas ou aspas simples, mas siga este padrão em todo o codigo");
+function calcularMedia() {
+    // Pede para o usuário digitar 4 números
+    let n1 = prompt("Digite o primeiro número:");
+    let n2 = prompt("Digite o segundo número:");
+    let n3 = prompt("Digite o terceiro número:");
+    let n4 = prompt("Digite o quarto número:");
 
-alert ("Ele é limitado ao clique no ok pelo usuário");
+    // Converte as entradas para números
+    n1 = Number(n1);
+    n2 = Number(n2);
+    n3 = Number(n3);
+    n4 = Number(n4);
 
-alert ("Não é possível configurar seu tempo de permanencia na tela");
+    // Calcula a média
+    let media = (n1 + n2 + n3 + n4) / 4;
+
+    // Mostra a média no console
+    console.log("A média dos números é: " + media);
+}
