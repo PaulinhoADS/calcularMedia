@@ -18,4 +18,7 @@ function calcularMedia() {
 
     // Mostra a média no console
     console.log("A média dos números é: " + media);
+    
+    alert("A média dos números é: " + media);
+
 }
